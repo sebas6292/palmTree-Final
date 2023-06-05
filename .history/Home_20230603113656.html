@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Jeff's Video</title>
+    <title>Jeff's Final</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/Assets/favicon.jpg" type="image/x-icon">
+  <link rel="icon" href="/Assets/favicon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
-
- 
   </head>
   <body>
     <nav>
-      <a href="/Home.html">Home</a>
+      <a href="/Home.html" aria-current="page">Home</a>
       <a href="/Images.html">Images</a>
       <a href="/Form.html">Form</a>
-      <a href="/Video.html" aria-current="page">Video</a>
+      <a href="/Video.html">Video</a>
     </nav>
-    <main >
-      <h1>
+    <main>
+      <h1>Home page</h1>
+      <div>
+        <h3>Fill out this Form!</h3>
+        <h1>
         <script>
           document.write(Date())
         </script>
         </h1>
         <br>
-        <div class="bg-img">
-      <h1 class="video-title">Video page</h1>
-      <video width="320" height="240" controls>
-        <source src="/Assets/IMG_3134.mov" type="video/mp4">
-      Your browser does not support the video tag.
-      </video>
-    </div>
-
+        <a
+          href="/Form.html"
+        >
+          <img src="./Assets/form.png" />
+        </a>
+        <p>"Do you want to fill out this form so we can release your information to spammers?"</p>
+      </div>
     </main>
-    <button onclick="window.print()">Print this page</button>
-
-    
-  </body> 
+   
+  </body>
 </html>

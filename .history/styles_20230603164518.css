@@ -5,9 +5,8 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
-  /* position: relative; */
-  /* margin: auto; */
-  margin-right: 1rem;
+  position: relative;
+  margin: auto;
 }
 
 /* Hide the images by default */
@@ -44,8 +43,8 @@
 
 /* Caption text */
 .text {
-  color: whitesmoke;
-  font-size: 2rem;
+  color: black;
+  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

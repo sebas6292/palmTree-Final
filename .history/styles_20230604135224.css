@@ -5,9 +5,9 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
-  /* position: relative; */
+  position: relative;
   /* margin: auto; */
-  margin-right: 1rem;
+  
 }
 
 /* Hide the images by default */
